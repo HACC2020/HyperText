@@ -1,5 +1,9 @@
 body {margin:0;}
 
+h2 {
+  margin-top: 80px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -22,9 +26,9 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  padding-top: 15px;
 }
 
 li a:hover:not(.active) {
@@ -69,7 +73,7 @@ p {
   justify-content: left;
   width: 75%;
 }
-img {
+.img {
   height: 200px;
   float: right;
   padding-right: 3%;
